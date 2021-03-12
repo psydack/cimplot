@@ -41,6 +41,20 @@ ImPlot_FillRange	10
 8	void	ImPlot_FillRangeVector_U32Ptr (ImVector_ImU32*,int,ImU32,ImU32)
 9	void	ImPlot_FillRangeVector_S64Ptr (ImVector_ImS64*,int,ImS64,ImS64)
 10	void	ImPlot_FillRangeVector_U64Ptr (ImVector_ImU64*,int,ImU64,ImU64)
+ImPlot_ImLog10	2
+1	float	ImPlot_ImLog10Float (float)
+2	double	ImPlot_ImLog10double (double)
+ImPlot_ImRemap	10
+1	float	ImPlot_ImRemapFloat (float,float,float,float,float)
+2	double	ImPlot_ImRemapdouble (double,double,double,double,double)
+3	ImS8	ImPlot_ImRemapS8 (ImS8,ImS8,ImS8,ImS8,ImS8)
+4	ImU8	ImPlot_ImRemapU8 (ImU8,ImU8,ImU8,ImU8,ImU8)
+5	ImS16	ImPlot_ImRemapS16 (ImS16,ImS16,ImS16,ImS16,ImS16)
+6	ImU16	ImPlot_ImRemapU16 (ImU16,ImU16,ImU16,ImU16,ImU16)
+7	ImS32	ImPlot_ImRemapS32 (ImS32,ImS32,ImS32,ImS32,ImS32)
+8	ImU32	ImPlot_ImRemapU32 (ImU32,ImU32,ImU32,ImU32,ImU32)
+9	ImS64	ImPlot_ImRemapS64 (ImS64,ImS64,ImS64,ImS64,ImS64)
+10	ImU64	ImPlot_ImRemapU64 (ImU64,ImU64,ImU64,ImU64,ImU64)
 ImPlot_IsColorAuto	2
 1	bool	ImPlot_IsColorAutoVec4 (const ImVec4)
 2	bool	ImPlot_IsColorAutoPlotCol (ImPlotCol)
@@ -319,18 +333,4 @@ ImPlot_SetNextPlotTicksX	2
 ImPlot_SetNextPlotTicksY	2
 1	void	ImPlot_SetNextPlotTicksYdoublePtr (const double*,int,const char* const[],bool,ImPlotYAxis)
 2	void	ImPlot_SetNextPlotTicksYdouble (double,double,int,const char* const[],bool,ImPlotYAxis)
-igImLog10	2
-1	float	igImLog10Float (float)
-2	double	igImLog10double (double)
-igImRemap	10
-1	float	igImRemapFloat (float,float,float,float,float)
-2	double	igImRemapdouble (double,double,double,double,double)
-3	ImS8	igImRemapS8 (ImS8,ImS8,ImS8,ImS8,ImS8)
-4	ImU8	igImRemapU8 (ImU8,ImU8,ImU8,ImU8,ImU8)
-5	ImS16	igImRemapS16 (ImS16,ImS16,ImS16,ImS16,ImS16)
-6	ImU16	igImRemapU16 (ImU16,ImU16,ImU16,ImU16,ImU16)
-7	ImS32	igImRemapS32 (ImS32,ImS32,ImS32,ImS32,ImS32)
-8	ImU32	igImRemapU32 (ImU32,ImU32,ImU32,ImU32,ImU32)
-9	ImS64	igImRemapS64 (ImS64,ImS64,ImS64,ImS64,ImS64)
-10	ImU64	igImRemapU64 (ImU64,ImU64,ImU64,ImU64,ImU64)
 297 overloaded

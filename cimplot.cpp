@@ -1332,79 +1332,79 @@ CIMGUI_API void ImPlot_ShowDemoWindow(bool* p_open)
 {
     return ImPlot::ShowDemoWindow(p_open);
 }
-CIMGUI_API float igImLog10Float(float x)
+CIMGUI_API float ImPlot_ImLog10Float(float x)
 {
     return ImLog10(x);
 }
-CIMGUI_API double igImLog10double(double x)
+CIMGUI_API double ImPlot_ImLog10double(double x)
 {
     return ImLog10(x);
 }
-CIMGUI_API float igImRemapFloat(float x,float x0,float x1,float y0,float y1)
+CIMGUI_API float ImPlot_ImRemapFloat(float x,float x0,float x1,float y0,float y1)
 {
     return ImRemap(x,x0,x1,y0,y1);
 }
-CIMGUI_API double igImRemapdouble(double x,double x0,double x1,double y0,double y1)
+CIMGUI_API double ImPlot_ImRemapdouble(double x,double x0,double x1,double y0,double y1)
 {
     return ImRemap(x,x0,x1,y0,y1);
 }
-CIMGUI_API ImS8 igImRemapS8(ImS8 x,ImS8 x0,ImS8 x1,ImS8 y0,ImS8 y1)
+CIMGUI_API ImS8 ImPlot_ImRemapS8(ImS8 x,ImS8 x0,ImS8 x1,ImS8 y0,ImS8 y1)
 {
     return ImRemap(x,x0,x1,y0,y1);
 }
-CIMGUI_API ImU8 igImRemapU8(ImU8 x,ImU8 x0,ImU8 x1,ImU8 y0,ImU8 y1)
+CIMGUI_API ImU8 ImPlot_ImRemapU8(ImU8 x,ImU8 x0,ImU8 x1,ImU8 y0,ImU8 y1)
 {
     return ImRemap(x,x0,x1,y0,y1);
 }
-CIMGUI_API ImS16 igImRemapS16(ImS16 x,ImS16 x0,ImS16 x1,ImS16 y0,ImS16 y1)
+CIMGUI_API ImS16 ImPlot_ImRemapS16(ImS16 x,ImS16 x0,ImS16 x1,ImS16 y0,ImS16 y1)
 {
     return ImRemap(x,x0,x1,y0,y1);
 }
-CIMGUI_API ImU16 igImRemapU16(ImU16 x,ImU16 x0,ImU16 x1,ImU16 y0,ImU16 y1)
+CIMGUI_API ImU16 ImPlot_ImRemapU16(ImU16 x,ImU16 x0,ImU16 x1,ImU16 y0,ImU16 y1)
 {
     return ImRemap(x,x0,x1,y0,y1);
 }
-CIMGUI_API ImS32 igImRemapS32(ImS32 x,ImS32 x0,ImS32 x1,ImS32 y0,ImS32 y1)
+CIMGUI_API ImS32 ImPlot_ImRemapS32(ImS32 x,ImS32 x0,ImS32 x1,ImS32 y0,ImS32 y1)
 {
     return ImRemap(x,x0,x1,y0,y1);
 }
-CIMGUI_API ImU32 igImRemapU32(ImU32 x,ImU32 x0,ImU32 x1,ImU32 y0,ImU32 y1)
+CIMGUI_API ImU32 ImPlot_ImRemapU32(ImU32 x,ImU32 x0,ImU32 x1,ImU32 y0,ImU32 y1)
 {
     return ImRemap(x,x0,x1,y0,y1);
 }
-CIMGUI_API ImS64 igImRemapS64(ImS64 x,ImS64 x0,ImS64 x1,ImS64 y0,ImS64 y1)
+CIMGUI_API ImS64 ImPlot_ImRemapS64(ImS64 x,ImS64 x0,ImS64 x1,ImS64 y0,ImS64 y1)
 {
     return ImRemap(x,x0,x1,y0,y1);
 }
-CIMGUI_API ImU64 igImRemapU64(ImU64 x,ImU64 x0,ImU64 x1,ImU64 y0,ImU64 y1)
+CIMGUI_API ImU64 ImPlot_ImRemapU64(ImU64 x,ImU64 x0,ImU64 x1,ImU64 y0,ImU64 y1)
 {
     return ImRemap(x,x0,x1,y0,y1);
 }
-CIMGUI_API int igImPosMod(int l,int r)
+CIMGUI_API int ImPlot_ImPosMod(int l,int r)
 {
     return ImPosMod(l,r);
 }
-CIMGUI_API bool igImNanOrInf(double val)
+CIMGUI_API bool ImPlot_ImNanOrInf(double val)
 {
     return ImNanOrInf(val);
 }
-CIMGUI_API double igImConstrainNan(double val)
+CIMGUI_API double ImPlot_ImConstrainNan(double val)
 {
     return ImConstrainNan(val);
 }
-CIMGUI_API double igImConstrainInf(double val)
+CIMGUI_API double ImPlot_ImConstrainInf(double val)
 {
     return ImConstrainInf(val);
 }
-CIMGUI_API double igImConstrainLog(double val)
+CIMGUI_API double ImPlot_ImConstrainLog(double val)
 {
     return ImConstrainLog(val);
 }
-CIMGUI_API double igImConstrainTime(double val)
+CIMGUI_API double ImPlot_ImConstrainTime(double val)
 {
     return ImConstrainTime(val);
 }
-CIMGUI_API bool igImAlmostEqual(double v1,double v2,int ulp)
+CIMGUI_API bool ImPlot_ImAlmostEqual(double v1,double v2,int ulp)
 {
     return ImAlmostEqual(v1,v2,ulp);
 }

@@ -4185,6 +4185,559 @@
       "stname": ""
     }
   ],
+  "ImPlot_ImAlmostEqual": [
+    {
+      "args": "(double v1,double v2,int ulp)",
+      "argsT": [
+        {
+          "name": "v1",
+          "type": "double"
+        },
+        {
+          "name": "v2",
+          "type": "double"
+        },
+        {
+          "name": "ulp",
+          "type": "int"
+        }
+      ],
+      "argsoriginal": "(double v1,double v2,int ulp=2)",
+      "call_args": "(v1,v2,ulp)",
+      "cimguiname": "ImPlot_ImAlmostEqual",
+      "defaults": {
+        "ulp": "2"
+      },
+      "funcname": "ImAlmostEqual",
+      "location": "implot_internal:111",
+      "ov_cimguiname": "ImPlot_ImAlmostEqual",
+      "ret": "bool",
+      "signature": "(double,double,int)",
+      "stname": ""
+    }
+  ],
+  "ImPlot_ImConstrainInf": [
+    {
+      "args": "(double val)",
+      "argsT": [
+        {
+          "name": "val",
+          "type": "double"
+        }
+      ],
+      "argsoriginal": "(double val)",
+      "call_args": "(val)",
+      "cimguiname": "ImPlot_ImConstrainInf",
+      "defaults": {},
+      "funcname": "ImConstrainInf",
+      "location": "implot_internal:105",
+      "ov_cimguiname": "ImPlot_ImConstrainInf",
+      "ret": "double",
+      "signature": "(double)",
+      "stname": ""
+    }
+  ],
+  "ImPlot_ImConstrainLog": [
+    {
+      "args": "(double val)",
+      "argsT": [
+        {
+          "name": "val",
+          "type": "double"
+        }
+      ],
+      "argsoriginal": "(double val)",
+      "call_args": "(val)",
+      "cimguiname": "ImPlot_ImConstrainLog",
+      "defaults": {},
+      "funcname": "ImConstrainLog",
+      "location": "implot_internal:107",
+      "ov_cimguiname": "ImPlot_ImConstrainLog",
+      "ret": "double",
+      "signature": "(double)",
+      "stname": ""
+    }
+  ],
+  "ImPlot_ImConstrainNan": [
+    {
+      "args": "(double val)",
+      "argsT": [
+        {
+          "name": "val",
+          "type": "double"
+        }
+      ],
+      "argsoriginal": "(double val)",
+      "call_args": "(val)",
+      "cimguiname": "ImPlot_ImConstrainNan",
+      "defaults": {},
+      "funcname": "ImConstrainNan",
+      "location": "implot_internal:103",
+      "ov_cimguiname": "ImPlot_ImConstrainNan",
+      "ret": "double",
+      "signature": "(double)",
+      "stname": ""
+    }
+  ],
+  "ImPlot_ImConstrainTime": [
+    {
+      "args": "(double val)",
+      "argsT": [
+        {
+          "name": "val",
+          "type": "double"
+        }
+      ],
+      "argsoriginal": "(double val)",
+      "call_args": "(val)",
+      "cimguiname": "ImPlot_ImConstrainTime",
+      "defaults": {},
+      "funcname": "ImConstrainTime",
+      "location": "implot_internal:109",
+      "ov_cimguiname": "ImPlot_ImConstrainTime",
+      "ret": "double",
+      "signature": "(double)",
+      "stname": ""
+    }
+  ],
+  "ImPlot_ImLog10": [
+    {
+      "args": "(float x)",
+      "argsT": [
+        {
+          "name": "x",
+          "type": "float"
+        }
+      ],
+      "argsoriginal": "(float x)",
+      "call_args": "(x)",
+      "cimguiname": "ImPlot_ImLog10",
+      "defaults": {},
+      "funcname": "ImLog10",
+      "location": "implot_internal:87",
+      "ov_cimguiname": "ImPlot_ImLog10Float",
+      "ret": "float",
+      "signature": "(float)",
+      "stname": ""
+    },
+    {
+      "args": "(double x)",
+      "argsT": [
+        {
+          "name": "x",
+          "type": "double"
+        }
+      ],
+      "argsoriginal": "(double x)",
+      "call_args": "(x)",
+      "cimguiname": "ImPlot_ImLog10",
+      "defaults": {},
+      "funcname": "ImLog10",
+      "location": "implot_internal:88",
+      "ov_cimguiname": "ImPlot_ImLog10double",
+      "ret": "double",
+      "signature": "(double)",
+      "stname": ""
+    }
+  ],
+  "ImPlot_ImNanOrInf": [
+    {
+      "args": "(double val)",
+      "argsT": [
+        {
+          "name": "val",
+          "type": "double"
+        }
+      ],
+      "argsoriginal": "(double val)",
+      "call_args": "(val)",
+      "cimguiname": "ImPlot_ImNanOrInf",
+      "defaults": {},
+      "funcname": "ImNanOrInf",
+      "location": "implot_internal:101",
+      "ov_cimguiname": "ImPlot_ImNanOrInf",
+      "ret": "bool",
+      "signature": "(double)",
+      "stname": ""
+    }
+  ],
+  "ImPlot_ImPosMod": [
+    {
+      "args": "(int l,int r)",
+      "argsT": [
+        {
+          "name": "l",
+          "type": "int"
+        },
+        {
+          "name": "r",
+          "type": "int"
+        }
+      ],
+      "argsoriginal": "(int l,int r)",
+      "call_args": "(l,r)",
+      "cimguiname": "ImPlot_ImPosMod",
+      "defaults": {},
+      "funcname": "ImPosMod",
+      "location": "implot_internal:99",
+      "ov_cimguiname": "ImPlot_ImPosMod",
+      "ret": "int",
+      "signature": "(int,int)",
+      "stname": ""
+    }
+  ],
+  "ImPlot_ImRemap": [
+    {
+      "args": "(float x,float x0,float x1,float y0,float y1)",
+      "argsT": [
+        {
+          "name": "x",
+          "type": "float"
+        },
+        {
+          "name": "x0",
+          "type": "float"
+        },
+        {
+          "name": "x1",
+          "type": "float"
+        },
+        {
+          "name": "y0",
+          "type": "float"
+        },
+        {
+          "name": "y1",
+          "type": "float"
+        }
+      ],
+      "argsoriginal": "(float x,float x0,float x1,float y0,float y1)",
+      "call_args": "(x,x0,x1,y0,y1)",
+      "cimguiname": "ImPlot_ImRemap",
+      "defaults": {},
+      "funcname": "ImRemap",
+      "location": "implot_internal:96",
+      "ov_cimguiname": "ImPlot_ImRemapFloat",
+      "ret": "float",
+      "signature": "(float,float,float,float,float)",
+      "stname": ""
+    },
+    {
+      "args": "(double x,double x0,double x1,double y0,double y1)",
+      "argsT": [
+        {
+          "name": "x",
+          "type": "double"
+        },
+        {
+          "name": "x0",
+          "type": "double"
+        },
+        {
+          "name": "x1",
+          "type": "double"
+        },
+        {
+          "name": "y0",
+          "type": "double"
+        },
+        {
+          "name": "y1",
+          "type": "double"
+        }
+      ],
+      "argsoriginal": "(double x,double x0,double x1,double y0,double y1)",
+      "call_args": "(x,x0,x1,y0,y1)",
+      "cimguiname": "ImPlot_ImRemap",
+      "defaults": {},
+      "funcname": "ImRemap",
+      "location": "implot_internal:96",
+      "ov_cimguiname": "ImPlot_ImRemapdouble",
+      "ret": "double",
+      "signature": "(double,double,double,double,double)",
+      "stname": ""
+    },
+    {
+      "args": "(ImS8 x,ImS8 x0,ImS8 x1,ImS8 y0,ImS8 y1)",
+      "argsT": [
+        {
+          "name": "x",
+          "type": "ImS8"
+        },
+        {
+          "name": "x0",
+          "type": "ImS8"
+        },
+        {
+          "name": "x1",
+          "type": "ImS8"
+        },
+        {
+          "name": "y0",
+          "type": "ImS8"
+        },
+        {
+          "name": "y1",
+          "type": "ImS8"
+        }
+      ],
+      "argsoriginal": "(ImS8 x,ImS8 x0,ImS8 x1,ImS8 y0,ImS8 y1)",
+      "call_args": "(x,x0,x1,y0,y1)",
+      "cimguiname": "ImPlot_ImRemap",
+      "defaults": {},
+      "funcname": "ImRemap",
+      "location": "implot_internal:96",
+      "ov_cimguiname": "ImPlot_ImRemapS8",
+      "ret": "ImS8",
+      "signature": "(ImS8,ImS8,ImS8,ImS8,ImS8)",
+      "stname": ""
+    },
+    {
+      "args": "(ImU8 x,ImU8 x0,ImU8 x1,ImU8 y0,ImU8 y1)",
+      "argsT": [
+        {
+          "name": "x",
+          "type": "ImU8"
+        },
+        {
+          "name": "x0",
+          "type": "ImU8"
+        },
+        {
+          "name": "x1",
+          "type": "ImU8"
+        },
+        {
+          "name": "y0",
+          "type": "ImU8"
+        },
+        {
+          "name": "y1",
+          "type": "ImU8"
+        }
+      ],
+      "argsoriginal": "(ImU8 x,ImU8 x0,ImU8 x1,ImU8 y0,ImU8 y1)",
+      "call_args": "(x,x0,x1,y0,y1)",
+      "cimguiname": "ImPlot_ImRemap",
+      "defaults": {},
+      "funcname": "ImRemap",
+      "location": "implot_internal:96",
+      "ov_cimguiname": "ImPlot_ImRemapU8",
+      "ret": "ImU8",
+      "signature": "(ImU8,ImU8,ImU8,ImU8,ImU8)",
+      "stname": ""
+    },
+    {
+      "args": "(ImS16 x,ImS16 x0,ImS16 x1,ImS16 y0,ImS16 y1)",
+      "argsT": [
+        {
+          "name": "x",
+          "type": "ImS16"
+        },
+        {
+          "name": "x0",
+          "type": "ImS16"
+        },
+        {
+          "name": "x1",
+          "type": "ImS16"
+        },
+        {
+          "name": "y0",
+          "type": "ImS16"
+        },
+        {
+          "name": "y1",
+          "type": "ImS16"
+        }
+      ],
+      "argsoriginal": "(ImS16 x,ImS16 x0,ImS16 x1,ImS16 y0,ImS16 y1)",
+      "call_args": "(x,x0,x1,y0,y1)",
+      "cimguiname": "ImPlot_ImRemap",
+      "defaults": {},
+      "funcname": "ImRemap",
+      "location": "implot_internal:96",
+      "ov_cimguiname": "ImPlot_ImRemapS16",
+      "ret": "ImS16",
+      "signature": "(ImS16,ImS16,ImS16,ImS16,ImS16)",
+      "stname": ""
+    },
+    {
+      "args": "(ImU16 x,ImU16 x0,ImU16 x1,ImU16 y0,ImU16 y1)",
+      "argsT": [
+        {
+          "name": "x",
+          "type": "ImU16"
+        },
+        {
+          "name": "x0",
+          "type": "ImU16"
+        },
+        {
+          "name": "x1",
+          "type": "ImU16"
+        },
+        {
+          "name": "y0",
+          "type": "ImU16"
+        },
+        {
+          "name": "y1",
+          "type": "ImU16"
+        }
+      ],
+      "argsoriginal": "(ImU16 x,ImU16 x0,ImU16 x1,ImU16 y0,ImU16 y1)",
+      "call_args": "(x,x0,x1,y0,y1)",
+      "cimguiname": "ImPlot_ImRemap",
+      "defaults": {},
+      "funcname": "ImRemap",
+      "location": "implot_internal:96",
+      "ov_cimguiname": "ImPlot_ImRemapU16",
+      "ret": "ImU16",
+      "signature": "(ImU16,ImU16,ImU16,ImU16,ImU16)",
+      "stname": ""
+    },
+    {
+      "args": "(ImS32 x,ImS32 x0,ImS32 x1,ImS32 y0,ImS32 y1)",
+      "argsT": [
+        {
+          "name": "x",
+          "type": "ImS32"
+        },
+        {
+          "name": "x0",
+          "type": "ImS32"
+        },
+        {
+          "name": "x1",
+          "type": "ImS32"
+        },
+        {
+          "name": "y0",
+          "type": "ImS32"
+        },
+        {
+          "name": "y1",
+          "type": "ImS32"
+        }
+      ],
+      "argsoriginal": "(ImS32 x,ImS32 x0,ImS32 x1,ImS32 y0,ImS32 y1)",
+      "call_args": "(x,x0,x1,y0,y1)",
+      "cimguiname": "ImPlot_ImRemap",
+      "defaults": {},
+      "funcname": "ImRemap",
+      "location": "implot_internal:96",
+      "ov_cimguiname": "ImPlot_ImRemapS32",
+      "ret": "ImS32",
+      "signature": "(ImS32,ImS32,ImS32,ImS32,ImS32)",
+      "stname": ""
+    },
+    {
+      "args": "(ImU32 x,ImU32 x0,ImU32 x1,ImU32 y0,ImU32 y1)",
+      "argsT": [
+        {
+          "name": "x",
+          "type": "ImU32"
+        },
+        {
+          "name": "x0",
+          "type": "ImU32"
+        },
+        {
+          "name": "x1",
+          "type": "ImU32"
+        },
+        {
+          "name": "y0",
+          "type": "ImU32"
+        },
+        {
+          "name": "y1",
+          "type": "ImU32"
+        }
+      ],
+      "argsoriginal": "(ImU32 x,ImU32 x0,ImU32 x1,ImU32 y0,ImU32 y1)",
+      "call_args": "(x,x0,x1,y0,y1)",
+      "cimguiname": "ImPlot_ImRemap",
+      "defaults": {},
+      "funcname": "ImRemap",
+      "location": "implot_internal:96",
+      "ov_cimguiname": "ImPlot_ImRemapU32",
+      "ret": "ImU32",
+      "signature": "(ImU32,ImU32,ImU32,ImU32,ImU32)",
+      "stname": ""
+    },
+    {
+      "args": "(ImS64 x,ImS64 x0,ImS64 x1,ImS64 y0,ImS64 y1)",
+      "argsT": [
+        {
+          "name": "x",
+          "type": "ImS64"
+        },
+        {
+          "name": "x0",
+          "type": "ImS64"
+        },
+        {
+          "name": "x1",
+          "type": "ImS64"
+        },
+        {
+          "name": "y0",
+          "type": "ImS64"
+        },
+        {
+          "name": "y1",
+          "type": "ImS64"
+        }
+      ],
+      "argsoriginal": "(ImS64 x,ImS64 x0,ImS64 x1,ImS64 y0,ImS64 y1)",
+      "call_args": "(x,x0,x1,y0,y1)",
+      "cimguiname": "ImPlot_ImRemap",
+      "defaults": {},
+      "funcname": "ImRemap",
+      "location": "implot_internal:96",
+      "ov_cimguiname": "ImPlot_ImRemapS64",
+      "ret": "ImS64",
+      "signature": "(ImS64,ImS64,ImS64,ImS64,ImS64)",
+      "stname": ""
+    },
+    {
+      "args": "(ImU64 x,ImU64 x0,ImU64 x1,ImU64 y0,ImU64 y1)",
+      "argsT": [
+        {
+          "name": "x",
+          "type": "ImU64"
+        },
+        {
+          "name": "x0",
+          "type": "ImU64"
+        },
+        {
+          "name": "x1",
+          "type": "ImU64"
+        },
+        {
+          "name": "y0",
+          "type": "ImU64"
+        },
+        {
+          "name": "y1",
+          "type": "ImU64"
+        }
+      ],
+      "argsoriginal": "(ImU64 x,ImU64 x0,ImU64 x1,ImU64 y0,ImU64 y1)",
+      "call_args": "(x,x0,x1,y0,y1)",
+      "cimguiname": "ImPlot_ImRemap",
+      "defaults": {},
+      "funcname": "ImRemap",
+      "location": "implot_internal:96",
+      "ov_cimguiname": "ImPlot_ImRemapU64",
+      "ret": "ImU64",
+      "signature": "(ImU64,ImU64,ImU64,ImU64,ImU64)",
+      "stname": ""
+    }
+  ],
   "ImPlot_Initialize": [
     {
       "args": "(ImPlotContext* ctx)",
@@ -18191,559 +18744,6 @@
       "ov_cimguiname": "ImPlot_UpdateTransformCache",
       "ret": "void",
       "signature": "()",
-      "stname": ""
-    }
-  ],
-  "igImAlmostEqual": [
-    {
-      "args": "(double v1,double v2,int ulp)",
-      "argsT": [
-        {
-          "name": "v1",
-          "type": "double"
-        },
-        {
-          "name": "v2",
-          "type": "double"
-        },
-        {
-          "name": "ulp",
-          "type": "int"
-        }
-      ],
-      "argsoriginal": "(double v1,double v2,int ulp=2)",
-      "call_args": "(v1,v2,ulp)",
-      "cimguiname": "igImAlmostEqual",
-      "defaults": {
-        "ulp": "2"
-      },
-      "funcname": "ImAlmostEqual",
-      "location": "implot_internal:111",
-      "ov_cimguiname": "igImAlmostEqual",
-      "ret": "bool",
-      "signature": "(double,double,int)",
-      "stname": ""
-    }
-  ],
-  "igImConstrainInf": [
-    {
-      "args": "(double val)",
-      "argsT": [
-        {
-          "name": "val",
-          "type": "double"
-        }
-      ],
-      "argsoriginal": "(double val)",
-      "call_args": "(val)",
-      "cimguiname": "igImConstrainInf",
-      "defaults": {},
-      "funcname": "ImConstrainInf",
-      "location": "implot_internal:105",
-      "ov_cimguiname": "igImConstrainInf",
-      "ret": "double",
-      "signature": "(double)",
-      "stname": ""
-    }
-  ],
-  "igImConstrainLog": [
-    {
-      "args": "(double val)",
-      "argsT": [
-        {
-          "name": "val",
-          "type": "double"
-        }
-      ],
-      "argsoriginal": "(double val)",
-      "call_args": "(val)",
-      "cimguiname": "igImConstrainLog",
-      "defaults": {},
-      "funcname": "ImConstrainLog",
-      "location": "implot_internal:107",
-      "ov_cimguiname": "igImConstrainLog",
-      "ret": "double",
-      "signature": "(double)",
-      "stname": ""
-    }
-  ],
-  "igImConstrainNan": [
-    {
-      "args": "(double val)",
-      "argsT": [
-        {
-          "name": "val",
-          "type": "double"
-        }
-      ],
-      "argsoriginal": "(double val)",
-      "call_args": "(val)",
-      "cimguiname": "igImConstrainNan",
-      "defaults": {},
-      "funcname": "ImConstrainNan",
-      "location": "implot_internal:103",
-      "ov_cimguiname": "igImConstrainNan",
-      "ret": "double",
-      "signature": "(double)",
-      "stname": ""
-    }
-  ],
-  "igImConstrainTime": [
-    {
-      "args": "(double val)",
-      "argsT": [
-        {
-          "name": "val",
-          "type": "double"
-        }
-      ],
-      "argsoriginal": "(double val)",
-      "call_args": "(val)",
-      "cimguiname": "igImConstrainTime",
-      "defaults": {},
-      "funcname": "ImConstrainTime",
-      "location": "implot_internal:109",
-      "ov_cimguiname": "igImConstrainTime",
-      "ret": "double",
-      "signature": "(double)",
-      "stname": ""
-    }
-  ],
-  "igImLog10": [
-    {
-      "args": "(float x)",
-      "argsT": [
-        {
-          "name": "x",
-          "type": "float"
-        }
-      ],
-      "argsoriginal": "(float x)",
-      "call_args": "(x)",
-      "cimguiname": "igImLog10",
-      "defaults": {},
-      "funcname": "ImLog10",
-      "location": "implot_internal:87",
-      "ov_cimguiname": "igImLog10Float",
-      "ret": "float",
-      "signature": "(float)",
-      "stname": ""
-    },
-    {
-      "args": "(double x)",
-      "argsT": [
-        {
-          "name": "x",
-          "type": "double"
-        }
-      ],
-      "argsoriginal": "(double x)",
-      "call_args": "(x)",
-      "cimguiname": "igImLog10",
-      "defaults": {},
-      "funcname": "ImLog10",
-      "location": "implot_internal:88",
-      "ov_cimguiname": "igImLog10double",
-      "ret": "double",
-      "signature": "(double)",
-      "stname": ""
-    }
-  ],
-  "igImNanOrInf": [
-    {
-      "args": "(double val)",
-      "argsT": [
-        {
-          "name": "val",
-          "type": "double"
-        }
-      ],
-      "argsoriginal": "(double val)",
-      "call_args": "(val)",
-      "cimguiname": "igImNanOrInf",
-      "defaults": {},
-      "funcname": "ImNanOrInf",
-      "location": "implot_internal:101",
-      "ov_cimguiname": "igImNanOrInf",
-      "ret": "bool",
-      "signature": "(double)",
-      "stname": ""
-    }
-  ],
-  "igImPosMod": [
-    {
-      "args": "(int l,int r)",
-      "argsT": [
-        {
-          "name": "l",
-          "type": "int"
-        },
-        {
-          "name": "r",
-          "type": "int"
-        }
-      ],
-      "argsoriginal": "(int l,int r)",
-      "call_args": "(l,r)",
-      "cimguiname": "igImPosMod",
-      "defaults": {},
-      "funcname": "ImPosMod",
-      "location": "implot_internal:99",
-      "ov_cimguiname": "igImPosMod",
-      "ret": "int",
-      "signature": "(int,int)",
-      "stname": ""
-    }
-  ],
-  "igImRemap": [
-    {
-      "args": "(float x,float x0,float x1,float y0,float y1)",
-      "argsT": [
-        {
-          "name": "x",
-          "type": "float"
-        },
-        {
-          "name": "x0",
-          "type": "float"
-        },
-        {
-          "name": "x1",
-          "type": "float"
-        },
-        {
-          "name": "y0",
-          "type": "float"
-        },
-        {
-          "name": "y1",
-          "type": "float"
-        }
-      ],
-      "argsoriginal": "(float x,float x0,float x1,float y0,float y1)",
-      "call_args": "(x,x0,x1,y0,y1)",
-      "cimguiname": "igImRemap",
-      "defaults": {},
-      "funcname": "ImRemap",
-      "location": "implot_internal:96",
-      "ov_cimguiname": "igImRemapFloat",
-      "ret": "float",
-      "signature": "(float,float,float,float,float)",
-      "stname": ""
-    },
-    {
-      "args": "(double x,double x0,double x1,double y0,double y1)",
-      "argsT": [
-        {
-          "name": "x",
-          "type": "double"
-        },
-        {
-          "name": "x0",
-          "type": "double"
-        },
-        {
-          "name": "x1",
-          "type": "double"
-        },
-        {
-          "name": "y0",
-          "type": "double"
-        },
-        {
-          "name": "y1",
-          "type": "double"
-        }
-      ],
-      "argsoriginal": "(double x,double x0,double x1,double y0,double y1)",
-      "call_args": "(x,x0,x1,y0,y1)",
-      "cimguiname": "igImRemap",
-      "defaults": {},
-      "funcname": "ImRemap",
-      "location": "implot_internal:96",
-      "ov_cimguiname": "igImRemapdouble",
-      "ret": "double",
-      "signature": "(double,double,double,double,double)",
-      "stname": ""
-    },
-    {
-      "args": "(ImS8 x,ImS8 x0,ImS8 x1,ImS8 y0,ImS8 y1)",
-      "argsT": [
-        {
-          "name": "x",
-          "type": "ImS8"
-        },
-        {
-          "name": "x0",
-          "type": "ImS8"
-        },
-        {
-          "name": "x1",
-          "type": "ImS8"
-        },
-        {
-          "name": "y0",
-          "type": "ImS8"
-        },
-        {
-          "name": "y1",
-          "type": "ImS8"
-        }
-      ],
-      "argsoriginal": "(ImS8 x,ImS8 x0,ImS8 x1,ImS8 y0,ImS8 y1)",
-      "call_args": "(x,x0,x1,y0,y1)",
-      "cimguiname": "igImRemap",
-      "defaults": {},
-      "funcname": "ImRemap",
-      "location": "implot_internal:96",
-      "ov_cimguiname": "igImRemapS8",
-      "ret": "ImS8",
-      "signature": "(ImS8,ImS8,ImS8,ImS8,ImS8)",
-      "stname": ""
-    },
-    {
-      "args": "(ImU8 x,ImU8 x0,ImU8 x1,ImU8 y0,ImU8 y1)",
-      "argsT": [
-        {
-          "name": "x",
-          "type": "ImU8"
-        },
-        {
-          "name": "x0",
-          "type": "ImU8"
-        },
-        {
-          "name": "x1",
-          "type": "ImU8"
-        },
-        {
-          "name": "y0",
-          "type": "ImU8"
-        },
-        {
-          "name": "y1",
-          "type": "ImU8"
-        }
-      ],
-      "argsoriginal": "(ImU8 x,ImU8 x0,ImU8 x1,ImU8 y0,ImU8 y1)",
-      "call_args": "(x,x0,x1,y0,y1)",
-      "cimguiname": "igImRemap",
-      "defaults": {},
-      "funcname": "ImRemap",
-      "location": "implot_internal:96",
-      "ov_cimguiname": "igImRemapU8",
-      "ret": "ImU8",
-      "signature": "(ImU8,ImU8,ImU8,ImU8,ImU8)",
-      "stname": ""
-    },
-    {
-      "args": "(ImS16 x,ImS16 x0,ImS16 x1,ImS16 y0,ImS16 y1)",
-      "argsT": [
-        {
-          "name": "x",
-          "type": "ImS16"
-        },
-        {
-          "name": "x0",
-          "type": "ImS16"
-        },
-        {
-          "name": "x1",
-          "type": "ImS16"
-        },
-        {
-          "name": "y0",
-          "type": "ImS16"
-        },
-        {
-          "name": "y1",
-          "type": "ImS16"
-        }
-      ],
-      "argsoriginal": "(ImS16 x,ImS16 x0,ImS16 x1,ImS16 y0,ImS16 y1)",
-      "call_args": "(x,x0,x1,y0,y1)",
-      "cimguiname": "igImRemap",
-      "defaults": {},
-      "funcname": "ImRemap",
-      "location": "implot_internal:96",
-      "ov_cimguiname": "igImRemapS16",
-      "ret": "ImS16",
-      "signature": "(ImS16,ImS16,ImS16,ImS16,ImS16)",
-      "stname": ""
-    },
-    {
-      "args": "(ImU16 x,ImU16 x0,ImU16 x1,ImU16 y0,ImU16 y1)",
-      "argsT": [
-        {
-          "name": "x",
-          "type": "ImU16"
-        },
-        {
-          "name": "x0",
-          "type": "ImU16"
-        },
-        {
-          "name": "x1",
-          "type": "ImU16"
-        },
-        {
-          "name": "y0",
-          "type": "ImU16"
-        },
-        {
-          "name": "y1",
-          "type": "ImU16"
-        }
-      ],
-      "argsoriginal": "(ImU16 x,ImU16 x0,ImU16 x1,ImU16 y0,ImU16 y1)",
-      "call_args": "(x,x0,x1,y0,y1)",
-      "cimguiname": "igImRemap",
-      "defaults": {},
-      "funcname": "ImRemap",
-      "location": "implot_internal:96",
-      "ov_cimguiname": "igImRemapU16",
-      "ret": "ImU16",
-      "signature": "(ImU16,ImU16,ImU16,ImU16,ImU16)",
-      "stname": ""
-    },
-    {
-      "args": "(ImS32 x,ImS32 x0,ImS32 x1,ImS32 y0,ImS32 y1)",
-      "argsT": [
-        {
-          "name": "x",
-          "type": "ImS32"
-        },
-        {
-          "name": "x0",
-          "type": "ImS32"
-        },
-        {
-          "name": "x1",
-          "type": "ImS32"
-        },
-        {
-          "name": "y0",
-          "type": "ImS32"
-        },
-        {
-          "name": "y1",
-          "type": "ImS32"
-        }
-      ],
-      "argsoriginal": "(ImS32 x,ImS32 x0,ImS32 x1,ImS32 y0,ImS32 y1)",
-      "call_args": "(x,x0,x1,y0,y1)",
-      "cimguiname": "igImRemap",
-      "defaults": {},
-      "funcname": "ImRemap",
-      "location": "implot_internal:96",
-      "ov_cimguiname": "igImRemapS32",
-      "ret": "ImS32",
-      "signature": "(ImS32,ImS32,ImS32,ImS32,ImS32)",
-      "stname": ""
-    },
-    {
-      "args": "(ImU32 x,ImU32 x0,ImU32 x1,ImU32 y0,ImU32 y1)",
-      "argsT": [
-        {
-          "name": "x",
-          "type": "ImU32"
-        },
-        {
-          "name": "x0",
-          "type": "ImU32"
-        },
-        {
-          "name": "x1",
-          "type": "ImU32"
-        },
-        {
-          "name": "y0",
-          "type": "ImU32"
-        },
-        {
-          "name": "y1",
-          "type": "ImU32"
-        }
-      ],
-      "argsoriginal": "(ImU32 x,ImU32 x0,ImU32 x1,ImU32 y0,ImU32 y1)",
-      "call_args": "(x,x0,x1,y0,y1)",
-      "cimguiname": "igImRemap",
-      "defaults": {},
-      "funcname": "ImRemap",
-      "location": "implot_internal:96",
-      "ov_cimguiname": "igImRemapU32",
-      "ret": "ImU32",
-      "signature": "(ImU32,ImU32,ImU32,ImU32,ImU32)",
-      "stname": ""
-    },
-    {
-      "args": "(ImS64 x,ImS64 x0,ImS64 x1,ImS64 y0,ImS64 y1)",
-      "argsT": [
-        {
-          "name": "x",
-          "type": "ImS64"
-        },
-        {
-          "name": "x0",
-          "type": "ImS64"
-        },
-        {
-          "name": "x1",
-          "type": "ImS64"
-        },
-        {
-          "name": "y0",
-          "type": "ImS64"
-        },
-        {
-          "name": "y1",
-          "type": "ImS64"
-        }
-      ],
-      "argsoriginal": "(ImS64 x,ImS64 x0,ImS64 x1,ImS64 y0,ImS64 y1)",
-      "call_args": "(x,x0,x1,y0,y1)",
-      "cimguiname": "igImRemap",
-      "defaults": {},
-      "funcname": "ImRemap",
-      "location": "implot_internal:96",
-      "ov_cimguiname": "igImRemapS64",
-      "ret": "ImS64",
-      "signature": "(ImS64,ImS64,ImS64,ImS64,ImS64)",
-      "stname": ""
-    },
-    {
-      "args": "(ImU64 x,ImU64 x0,ImU64 x1,ImU64 y0,ImU64 y1)",
-      "argsT": [
-        {
-          "name": "x",
-          "type": "ImU64"
-        },
-        {
-          "name": "x0",
-          "type": "ImU64"
-        },
-        {
-          "name": "x1",
-          "type": "ImU64"
-        },
-        {
-          "name": "y0",
-          "type": "ImU64"
-        },
-        {
-          "name": "y1",
-          "type": "ImU64"
-        }
-      ],
-      "argsoriginal": "(ImU64 x,ImU64 x0,ImU64 x1,ImU64 y0,ImU64 y1)",
-      "call_args": "(x,x0,x1,y0,y1)",
-      "cimguiname": "igImRemap",
-      "defaults": {},
-      "funcname": "ImRemap",
-      "location": "implot_internal:96",
-      "ov_cimguiname": "igImRemapU64",
-      "ret": "ImU64",
-      "signature": "(ImU64,ImU64,ImU64,ImU64,ImU64)",
       "stname": ""
     }
   ]
