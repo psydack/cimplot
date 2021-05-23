@@ -7,6 +7,8 @@
 #include "cimgui.h"
 
 #ifdef CIMGUI_DEFINE_ENUMS_AND_STRUCTS
+#include <time.h>
+
 typedef struct ImPlotNextItemData ImPlotNextItemData;
 typedef struct ImPlotTickCollection ImPlotTickCollection;
 typedef struct ImPlotAnnotationCollection ImPlotAnnotationCollection;
